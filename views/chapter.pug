@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    style
+      include chapter.css
+    script(src='/javascripts/script-chapters.js')
+  body
+    h7
+      p(id='state')
+      p(id='timer')
+    h2(id='chapter')= chapter
+    div(id="index")
+    br
+    button(class='button' id='prev') PrevChapter
+    br
+    button(class='button' id='next') NextChapter
+    div(class="row")
+      span(class="column left" id='left')
+      span(class="column right" id='right')

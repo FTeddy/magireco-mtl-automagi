@@ -1,0 +1,16 @@
+.row{
+  display:flex;
+}
+
+.column{
+  flex: 50%%;
+  padding: 10px;
+}
+
+/* .left{
+  background-color:#aaa;
+}
+
+.right{
+  background-color:#bbb;
+} */
